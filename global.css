@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --h1-main-heading: Outfit;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-15xl: 34px;
+  --font-size-xl: 20px;
+  --h1-main-heading-size: 87px;
+  --font-size-25xl: 44px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-cornflowerblue: #8081d8;
+  --color-slateblue: rgba(99, 88, 189, 0.2);
+
+  /* Paddings */
+  --padding-6xs: 7px;
+  --padding-5xl: 24px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}
