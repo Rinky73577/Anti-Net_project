@@ -7,18 +7,22 @@ body {
   /* fonts */
   --h1-main-heading: Outfit;
   --font-roboto: Roboto;
+  --font-inter: Inter;
 
   /* font sizes */
   --font-size-5xl: 24px;
   --font-size-15xl: 34px;
   --font-size-xl: 20px;
   --h1-main-heading-size: 87px;
-  --font-size-25xl: 44px;
+  --font-size-mini: 15px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
 
   /* Colors */
   --color-white: #fff;
   --color-cornflowerblue: #8081d8;
   --color-slateblue: rgba(99, 88, 189, 0.2);
+  --color-darkslateblue: #151941;
 
   /* Paddings */
   --padding-6xs: 7px;
@@ -26,4 +30,5 @@ body {
 
   /* Border radiuses */
   --br-3xs: 10px;
+  --br-7xs: 6px;
 }
