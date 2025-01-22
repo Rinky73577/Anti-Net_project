@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./desktop3.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;0,700;0,800;1,800&display=swap"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,700&display=swap"
     />
     <link
       rel="stylesheet"
@@ -21,10 +21,8 @@
   </head>
   <body>
     <div class="desktop-3">
-      <img class="desktop-3-child" alt="" src="./public/rectangle-38@2x.png" />
-
-      <div class="login1">
-        <b class="login2">Login</b>
+      <div class="login">
+        <b class="login1">Login</b>
         <b class="email1">Email</b>
         <b class="password1">Password</b>
         <div class="create-an-account" id="createAnAccount">
@@ -35,13 +33,12 @@
         <div class="login-item"></div>
         <button class="group-button">
           <div class="group-child1"></div>
-          <b class="login3">Login</b>
+          <b class="login2">Login</b>
         </button>
+        <img class="email-icon2" alt="" src="./public/email1@2x.png" />
+
+        <img class="lock-icon1" alt="" src="./public/lock@2x.png" />
       </div>
-      <img class="email-icon2" alt="" src="./public/email1@2x.png" />
-
-      <img class="lock-icon1" alt="" src="./public/lock@2x.png" />
-
       <nav class="navbar2">
         <b class="anti-net3">Anti-Net</b>
         <div class="home6" id="homeContainer">
@@ -53,11 +50,11 @@
         <div class="about6">
           <div class="about7">About</div>
         </div>
-        <div class="contact6">
-          <div class="create-an-account1">contact</div>
+        <div class="report3">
+          <div class="create-an-account1">Report</div>
         </div>
-        <div class="loginregister4">
-          <div class="create-an-account1">Login/Register</div>
+        <div class="loginregister4" id="loginRegisterContainer">
+          <div class="loginregister5">Login/Register</div>
         </div>
       </nav>
     </div>
@@ -74,6 +71,13 @@
       if (homeContainer) {
         homeContainer.addEventListener("click", function (e) {
           window.location.href = "./component.html";
+        });
+      }
+
+      var loginRegisterContainer = document.getElementById("loginRegisterContainer");
+      if (loginRegisterContainer) {
+        loginRegisterContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop3.html";
         });
       }
     </script>

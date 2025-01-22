@@ -5,17 +5,17 @@ body {
 
 :root {
   /* fonts */
-  --font-roboto: Roboto;
-  --h1-main-heading: Outfit;
   --font-inter: Inter;
+  --h1-main-heading: Outfit;
+  --font-roboto: Roboto;
 
   /* font sizes */
-  --font-size-xl: 20px;
-  --font-size-5xl: 24px;
-  --h1-main-heading-size: 87px;
-  --font-size-15xl: 34px;
-  --font-size-mini: 15px;
   --font-size-sm: 14px;
+  --font-size-5xl: 24px;
+  --font-size-15xl: 34px;
+  --font-size-xl: 20px;
+  --h1-main-heading-size: 87px;
+  --font-size-mini: 15px;
   --font-size-base: 16px;
   --font-size-29xl: 48px;
 
@@ -30,6 +30,7 @@ body {
   /* Paddings */
   --padding-6xs: 7px;
   --padding-5xl: 24px;
+  --padding-26xl: 45px;
 
   /* Border radiuses */
   --br-3xs: 10px;

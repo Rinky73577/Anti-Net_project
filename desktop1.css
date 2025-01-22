@@ -1,13 +1,5 @@
 .desktop-5-child {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 1050px;
-  object-fit: cover;
-}
-.desktop-5-item {
-  position: absolute;
   top: 617px;
   left: 186px;
   border-radius: var(--br-7xs);
@@ -17,7 +9,7 @@
   width: 255px;
   height: 272px;
 }
-.desktop-5-inner {
+.desktop-5-item {
   position: absolute;
   top: 617px;
   left: 457px;
@@ -28,7 +20,7 @@
   width: 255px;
   height: 272px;
 }
-.desktop-5-child1 {
+.desktop-5-inner {
   position: absolute;
   top: 617px;
   left: 728px;
@@ -39,7 +31,7 @@
   width: 255px;
   height: 272px;
 }
-.desktop-5-child2 {
+.desktop-5-child1 {
   position: absolute;
   top: 617px;
   left: 998px;
@@ -50,7 +42,7 @@
   width: 255px;
   height: 272px;
 }
-.desktop-5-child3 {
+.desktop-5-child2 {
   position: absolute;
   top: 247px;
   left: 188px;
@@ -61,7 +53,7 @@
   width: 255px;
   height: 272px;
 }
-.desktop-5-child4 {
+.desktop-5-child3 {
   position: absolute;
   top: 247px;
   left: 458px;
@@ -72,7 +64,7 @@
   width: 255px;
   height: 272px;
 }
-.desktop-5-child5 {
+.desktop-5-child4 {
   position: absolute;
   top: 247px;
   left: 728px;
@@ -83,7 +75,7 @@
   width: 255px;
   height: 272px;
 }
-.desktop-5-child6 {
+.desktop-5-child5 {
   position: absolute;
   top: 247px;
   left: 997px;
@@ -96,10 +88,13 @@
 }
 .anti-net4 {
   position: absolute;
-  top: 1.75%;
+  width: 13.23%;
+  top: calc(50% - 15.5px);
   left: 0%;
   font-size: var(--font-size-15xl);
   line-height: 27.5px;
+  display: inline-block;
+  height: 30px;
 }
 .home9 {
   position: absolute;
@@ -109,20 +104,19 @@
 }
 .home8 {
   position: absolute;
-  height: 98.25%;
-  width: 6.06%;
-  top: 0%;
-  right: 60.04%;
-  bottom: 1.75%;
-  left: 33.9%;
+  width: 6.24%;
+  top: calc(50% - 14.5px);
+  right: 59.92%;
+  left: 33.84%;
+  height: 32px;
   cursor: pointer;
 }
 .features8 {
   position: absolute;
-  top: 0px;
-  left: 606px;
+  top: calc(50% - 14.5px);
+  left: 608px;
   width: 94px;
-  height: 28px;
+  height: 32px;
 }
 .about9 {
   position: absolute;
@@ -134,41 +128,43 @@
 }
 .about8 {
   position: absolute;
-  height: 98.25%;
-  width: 6.2%;
-  top: 0%;
-  right: 48.25%;
-  bottom: 1.75%;
-  left: 45.55%;
+  width: 6.24%;
+  top: calc(50% - 14.5px);
+  right: 48.11%;
+  left: 45.65%;
+  height: 32px;
 }
-.contact8 {
+.report4 {
   position: absolute;
-  height: 98.25%;
-  width: 7.67%;
-  top: 0%;
-  right: 20.45%;
-  bottom: 1.75%;
-  left: 71.88%;
+  width: 7.66%;
+  top: calc(50% - 14.5px);
+  right: 20.42%;
+  left: 71.93%;
+  height: 32px;
+}
+.loginregister7 {
+  position: absolute;
+  top: 12.5%;
+  left: 0%;
+  line-height: 27.5px;
 }
 .loginregister6 {
   position: absolute;
-  height: 98.25%;
-  width: 14.87%;
-  top: 0%;
+  width: 14.84%;
+  top: calc(50% - 17.5px);
   right: 0%;
-  bottom: 1.75%;
-  left: 85.13%;
+  left: 85.16%;
+  height: 32px;
   cursor: pointer;
 }
 .navbar3 {
   margin: 0;
   position: absolute;
-  height: 2.71%;
-  width: 73.33%;
-  top: 8.38%;
-  right: 13.13%;
-  bottom: 88.9%;
+  width: 73.47%;
+  top: calc(50% - 437px);
+  right: 12.99%;
   left: 13.54%;
+  height: 35px;
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--color-white);

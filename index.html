@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;0,700;0,800;1,800&display=swap"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,700&display=swap"
     />
     <link
       rel="stylesheet"
@@ -21,8 +21,6 @@
   </head>
   <body>
     <div class="desktop-1">
-      <img class="desktop-1-child" alt="" src="./public/rectangle-41@2x.png" />
-
       <img class="bg-circles-icon" alt="" src="./public/bg-circles.svg" />
 
       <div class="fotter">
@@ -41,14 +39,14 @@
         <div class="anti-net1">Anti-Net</div>
         <img class="fotter-icon" alt="" src="./public/fotter@2x.png" />
       </div>
-      <div class="contact">
+      <div class="report">
         <div class="rinkysitgmailcom">rinkysit@gmail.com</div>
         <div class="div">0123456789</div>
-        <div class="contact1">Contact</div>
+        <div class="contact">Contact</div>
         <div class="submit-button">
           <b class="more-about-as1">Submit </b>
         </div>
-        <div class="contact-us">Contact Us</div>
+        <div class="report-incedent">Report Incidence</div>
         <div class="message-input-placeholder"></div>
         <div class="message-input-background"></div>
         <div class="social-media-icon-placeholder"></div>
@@ -172,24 +170,6 @@
           src="./public/social-media-feed-on-smartphone-and-network-of-users@2x.png"
         />
       </div>
-      <nav class="navbar">
-        <b class="anti-net">Anti-Net</b>
-        <div class="home1" id="homeContainer">
-          <div class="home">Home</div>
-        </div>
-        <div class="about2">
-          <div class="about1">About</div>
-        </div>
-        <div class="features2">
-          <div class="home">Features</div>
-        </div>
-        <div class="contact2">
-          <div class="home">contact</div>
-        </div>
-        <div class="loginregister" id="loginRegisterContainer">
-          <div class="home">Login/Register</div>
-        </div>
-      </nav>
       <div class="home3">
         <b class="creating-a-safer">Creating a Safer Digital Space.</b>
         <div class="empowering-voices-silencing">
@@ -206,6 +186,27 @@
           src="./public/social-media-feed-on-smartphone-and-network-of-users@2x.png"
         />
       </div>
+      <nav class="navbar">
+        <b class="anti-net">Anti-Net</b>
+        <div class="home" id="homeContainer">
+          <div class="home1">Home</div>
+        </div>
+        <div class="features2">
+          <div class="home1">Features</div>
+        </div>
+        <div class="about2">
+          <div class="about1">About</div>
+        </div>
+        <div class="report1">
+          <div class="home1">Report</div>
+        </div>
+        <div class="loginregister" id="loginRegisterContainer">
+          <div class="loginregister1">Login/Register</div>
+        </div>
+      </nav>
+      <div class="contact2">Contact</div>
+      <div class="div1">0123456789</div>
+      <div class="rinkysitgmailcom1">rinkysit@gmail.com</div>
     </div>
 
     <script>
@@ -240,6 +241,16 @@
         });
       }
 
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='logosContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
       var homeContainer = document.getElementById("homeContainer");
       if (homeContainer) {
         homeContainer.addEventListener("click", function (e) {
@@ -251,16 +262,6 @@
       if (loginRegisterContainer) {
         loginRegisterContainer.addEventListener("click", function (e) {
           window.location.href = "./desktop3.html";
-        });
-      }
-
-      var groupButton1 = document.getElementById("groupButton1");
-      if (groupButton1) {
-        groupButton1.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='logosContainer']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
         });
       }
     </script>

@@ -1,11 +1,3 @@
-.desktop-1-child {
-  position: absolute;
-  top: 2376px;
-  left: 0px;
-  width: 1440px;
-  height: 1174px;
-  object-fit: cover;
-}
 .bg-circles-icon {
   position: absolute;
   height: 44.59%;
@@ -95,8 +87,8 @@
 }
 .fotter {
   position: absolute;
-  top: 3067px;
-  left: 188px;
+  top: 3363px;
+  left: 190px;
   width: 1060px;
   height: 187px;
 }
@@ -108,7 +100,7 @@
   font-size: var(--font-size-sm);
   line-height: 120%;
   font-weight: 800;
-  display: inline-block;
+  display: none;
 }
 .div {
   position: absolute;
@@ -118,9 +110,9 @@
   font-size: var(--font-size-sm);
   line-height: 120%;
   font-weight: 800;
-  display: inline-block;
+  display: none;
 }
-.contact1 {
+.contact {
   position: absolute;
   width: 9.22%;
   top: 17.89%;
@@ -128,7 +120,7 @@
   font-size: var(--font-size-5xl);
   line-height: 120%;
   font-weight: 800;
-  display: inline-block;
+  display: none;
 }
 .more-about-as1 {
   position: relative;
@@ -154,15 +146,13 @@
   font-size: var(--font-size-xl);
   font-family: var(--font-roboto);
 }
-.contact-us {
+.report-incedent {
   position: absolute;
-  width: 18.06%;
   top: 0%;
   left: 39.77%;
   font-size: var(--font-size-15xl);
   line-height: 120%;
   font-weight: 800;
-  display: inline-block;
 }
 .message-input-placeholder {
   position: absolute;
@@ -233,6 +223,7 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  display: none;
 }
 .email-icon {
   position: absolute;
@@ -246,8 +237,9 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  display: none;
 }
-.contact {
+.report {
   position: absolute;
   top: 2410px;
   left: 196px;
@@ -783,28 +775,45 @@
   font-size: var(--h1-main-heading-size);
   font-family: var(--h1-main-heading);
 }
+.home3 {
+  position: absolute;
+  top: 130px;
+  left: 190px;
+  width: 1065px;
+  height: 557px;
+  font-size: var(--h1-main-heading-size);
+  font-family: var(--h1-main-heading);
+}
 .anti-net {
   position: absolute;
-  top: 3.45%;
-  left: 0%;
+  top: 2px;
+  left: 0px;
   font-size: var(--font-size-15xl);
+  line-height: 27.5px;
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+}
+.home1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
   line-height: 27.5px;
 }
 .home {
   position: absolute;
-  top: 0%;
-  left: 0%;
-  line-height: 27.5px;
-}
-.home1 {
-  position: absolute;
-  height: 96.55%;
-  width: 6.06%;
-  top: 0%;
-  right: 60.04%;
-  bottom: 3.45%;
-  left: 33.9%;
+  top: 3px;
+  left: 358px;
+  width: 66px;
+  height: 32px;
   cursor: pointer;
+}
+.features2 {
+  position: absolute;
+  top: 3px;
+  left: 608px;
+  width: 94px;
+  height: 32px;
 }
 .about1 {
   position: absolute;
@@ -816,61 +825,73 @@
 }
 .about2 {
   position: absolute;
-  height: 96.55%;
-  width: 6.2%;
-  top: 0%;
-  right: 48.25%;
-  bottom: 3.45%;
-  left: 45.55%;
+  top: 3px;
+  left: 483px;
+  width: 66px;
+  height: 32px;
 }
-.features2 {
+.report1 {
   position: absolute;
-  top: 0px;
-  left: 606px;
-  width: 94px;
-  height: 28px;
+  top: 3px;
+  left: 761px;
+  width: 81px;
+  height: 32px;
 }
-.contact2 {
+.loginregister1 {
   position: absolute;
-  height: 96.55%;
-  width: 7.67%;
-  top: 0%;
-  right: 20.45%;
-  bottom: 3.45%;
-  left: 71.88%;
+  top: 12.5%;
+  left: 0%;
+  line-height: 27.5px;
 }
 .loginregister {
   position: absolute;
-  height: 96.55%;
-  width: 14.87%;
-  top: 3.45%;
-  right: 0%;
-  bottom: 0%;
-  left: 85.13%;
+  top: 0px;
+  left: 901px;
+  width: 157px;
+  height: 32px;
   cursor: pointer;
 }
 .navbar {
   margin: 0;
   position: absolute;
-  height: 0.82%;
-  width: 73.33%;
-  top: 1.55%;
-  right: 13.47%;
-  bottom: 97.64%;
-  left: 13.19%;
+  top: 55px;
+  left: 190px;
+  width: 1058px;
+  height: 35px;
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--h1-main-heading);
 }
-.home3 {
+.contact2 {
   position: absolute;
-  top: 130px;
-  left: 190px;
-  width: 1065px;
-  height: 557px;
-  font-size: var(--h1-main-heading-size);
-  font-family: var(--h1-main-heading);
+  width: 6.77%;
+  top: 98.82%;
+  left: 25.83%;
+  font-size: var(--font-size-5xl);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.div1 {
+  position: absolute;
+  width: 16.92%;
+  top: 98.99%;
+  left: 37.36%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.rinkysitgmailcom1 {
+  position: absolute;
+  width: 16.92%;
+  top: 98.99%;
+  left: 49.86%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
 }
 .desktop-1 {
   width: 100%;
