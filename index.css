@@ -126,6 +126,8 @@ a{
   font-weight: 800;
   display: none;
 } */
+
+/* -----Fotter------ */
 .fotter {
   position: relative;
   margin-top: 50px;
@@ -234,7 +236,7 @@ a{
   margin-top: 150px;
   font-size: 14px;
   color: white;
-  background: rgb(7, 85, 91);
+  background: rgb(59, 14, 143);
   padding: 20px 0;
 }
 .more-about-as1 {
@@ -299,7 +301,7 @@ a{
   left: 40.74%;
   background-color: var(--color-darkslateblue);
 }
-.enter-your-name {
+/* .enter-your-name {
   position: absolute;
   width: 12.39%;
   top: 17.89%;
@@ -325,7 +327,8 @@ a{
   line-height: 120%;
   font-weight: 500;
   display: inline-block;
-}
+} */
+
 .phone-icon {
   position: absolute;
   height: 7.95%;
