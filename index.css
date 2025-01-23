@@ -130,7 +130,7 @@ a{
 /* -----Fotter------ */
 .fotter {
   position: relative;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* width: 100%; */
   background-color: var(--color-darkslateblue);
   height: auto;
@@ -239,7 +239,7 @@ a{
   background: rgb(59, 14, 143);
   padding: 20px 0;
 }
-.more-about-as1 {
+/* .more-about-as1 {
   position: relative;
   line-height: 27.5px;
 }
@@ -262,14 +262,80 @@ a{
   box-sizing: border-box;
   font-size: var(--font-size-xl);
   font-family: var(--font-roboto);
+} */
+.frame {
+  position: absolute;
+  top: 15%; /* Adjust to position it below "Report Incidence" */
+  left: 0%; /* Center within the report section */
+  width: 100%; /* Set width relative to the report section */
+  padding: 20px; /* Adds space inside the frame */
+  padding-bottom: 40px; /* Add extra padding at the bottom */
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for better aesthetics */
+  color: white;
+  min-height: 200px; /* Ensure the frame has sufficient height */
+
 }
+
+.more-about-as1 {
+  position: relative;
+  line-height: 27.5px;
+}
+
+.submit-button {
+  position: absolute;
+  height: 7.95%;
+  width: 20.26%;
+  top: 75%; /* Adjust this to move it below the <p> tag */
+  right: 2.21%;
+  bottom: auto; /* Reset bottom to avoid conflict with top */
+  left: 77.52%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+
+
 .report-incedent {
   position: absolute;
   top: 0%;
-  left: 39.77%;
+  /* left: 39.77%; */
+  left:36%;
   font-size: var(--font-size-15xl);
   line-height: 120%;
   font-weight: 800;
+}
+
+.report h1 {
+  position: absolute;
+  top: 10%; /* Adjust this value to control the vertical positioning */
+  left: 0; /* Align to the left */
+  width: 100%; /* Adjust the width to fit the content */
+  text-align: left; /* Align the text to the left */
+  font-size: 22px; /* Keep the desired font size */
+  font-weight: 900; /* Maintain the bold style */
+  margin: 0;
+}
+
+
+.report p {
+  position: absolute;
+  top: 20%; /* Adjust this value to control spacing below the <h1> tag */
+  left: 0;
+  width: 100%; /* Ensures it spans the container */
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0;
 }
 .message-input-placeholder {
   position: absolute;
@@ -365,6 +431,7 @@ a{
   height: 503px;
   font-size: var(--font-size-base);
 }
+
 .more-features-button {
   position: absolute;
   height: 8.25%;
@@ -807,7 +874,7 @@ a{
 .logos {
   position: absolute;
   height: 5.82%;
-  top: 23.46%;
+  top: 28%;
   bottom: 70.72%;
   left: calc(50% - 532px);
   width: 1065px;
@@ -1015,7 +1082,7 @@ a{
   width: 100%;
   position: relative;
   background-color: var(--color-gray-100);
-  height: 3555px;
+  height: 3000px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-mini);
