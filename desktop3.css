@@ -133,7 +133,7 @@
 .features6 {
   position: absolute;
   top: calc(50% - 14.5px);
-  left: 645px;
+  left: 608px;
   width: 94px;
   height: 32px;
 }
@@ -200,3 +200,8 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
+
+
+
+

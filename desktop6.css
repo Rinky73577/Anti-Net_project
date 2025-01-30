@@ -17,9 +17,9 @@
 .report-your-incident {
   position: absolute;
   height: 5.84%;
-  width: 49.44%;
+  /* width: 49.44%; */
   top: 4.77%;
-  left: 13.89%;
+  left: 15%;
   font-size: 79px;
   line-height: 100%;
   text-transform: capitalize;
@@ -220,7 +220,7 @@
 .submit-report {
   position: relative;
   line-height: 27.5px;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
 }
 .submit-report-wrapper {
   position: absolute;

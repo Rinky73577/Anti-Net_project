@@ -305,6 +305,12 @@ a{
 }
 
 
+
+
+
+
+
+/* ----Report---- */
 .report-incedent {
   position: absolute;
   top: 0%;
@@ -432,6 +438,13 @@ a{
   font-size: var(--font-size-base);
 }
 
+
+
+
+
+
+
+/* ---Feature--- */
 .more-features-button {
   position: absolute;
   height: 8.25%;
@@ -639,6 +652,12 @@ a{
   height: 485px;
   font-size: var(--font-size-5xl);
 }
+
+
+
+
+
+/* ---About--- */
 .our-vision {
   position: absolute;
   top: 20%;
@@ -748,6 +767,14 @@ a{
   width: 1062px;
   height: 485px;
 }
+
+
+
+
+
+
+
+/* ----we're working with---- */
 .were-working-with {
   position: absolute;
   top: 0%;
@@ -880,6 +907,12 @@ a{
   width: 1065px;
   font-size: var(--font-size-15xl);
 }
+
+
+
+
+
+/* ---home--- */
 .creating-a-safer {
   position: absolute;
   height: 48.11%;
@@ -1089,3 +1122,14 @@ a{
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
+
+
+
+
+
+
+
+
+
+
