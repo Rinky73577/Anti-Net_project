@@ -113,7 +113,7 @@
 }
 .anti-net3 {
   position: absolute;
-  width: 13.23%;
+  /* width: 13.23%; */
   top: calc(50% - 15.5px);
   left: 0%;
   font-size: var(--font-size-15xl);
@@ -133,7 +133,6 @@
 .features6 {
   position: absolute;
   top: calc(50% - 14.5px);
-  left: 608px;
   width: 94px;
   height: 32px;
 }
