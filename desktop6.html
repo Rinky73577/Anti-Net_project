@@ -74,6 +74,17 @@
       </div>
     </div>
 
+    <div class="desktop-6">
+      <div class="popup-message" id="popupMessage">Report submitted successfully</div>
+
+      <div class="submit-report-wrapper">
+        <div class="submit-report" id="submitReport">
+          <i class="submit-report-as">Submit report </i>
+          <b> </b>
+        </div>
+      </div>
+    </div>
+
     <script>
       var frameContainer = document.getElementById("frameContainer");
       if (frameContainer) {
@@ -88,6 +99,17 @@
           window.location.href = "./desktop1.html";
         });
       }
+
+
+      document.getElementById("submitReport").addEventListener("click", function () {
+        var popup = document.getElementById("popupMessage");
+        popup.style.display = "block";
+        
+        setTimeout(function () {
+          popup.style.display = "none";
+          window.location.href = "#Tree"; // Redirect to home
+        }, 3000);
+      });
     </script>
   </body>
 </html>
