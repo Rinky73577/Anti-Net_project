@@ -1,10 +1,10 @@
 .desktop-6-child {
   position: absolute;
-  top: 66px;
+  top: 50px;
   left: 190px;
   background-color: var(--color-darkslateblue);
   width: 1060px;
-  height: 92px;
+  height: 50px;
 }
 .desktop-6-item {
   position: absolute;
@@ -18,9 +18,9 @@
   position: absolute;
   height: 5.84%;
   /* width: 49.44%; */
-  top: 4.77%;
+  top: 4%;
   left: 15%;
-  font-size: 79px;
+  font-size: 35px;
   line-height: 100%;
   text-transform: capitalize;
   font-family: var(--h1-main-heading);
@@ -28,56 +28,148 @@
 }
 .back-icon {
   position: absolute;
-  top: 93px;
+  top: 60px;
   left: 1186px;
-  width: 58px;
-  height: 51px;
+  width: 40px;
+  height: 33px;
   object-fit: cover;
 }
-.desktop-6-inner {
+/* .desktop-6-inner {
   position: absolute;
-  top: 307px;
+  top: 180px;
   left: 191px;
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslateblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 522px;
-  height: 493px;
-}
-.desktop-6-child1 {
+  height: 150px;
+} */
+.desktop-6-inner {
   position: absolute;
-  top: 307px;
+  top: 180px;
+  left: 191px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 522px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.text-message {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: white; /* Adjust based on background */
+  font-size: 20px;
+  line-height: 27.5px;
+  font-weight: 100;
+  outline: none;
+  resize: none; /* Prevent resizing */
+}
+
+/* .desktop-6-child1 {
+  position: absolute;
+  top: 180px;
   left: 730px;
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslateblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 522px;
-  height: 116px;
+  height: 50px;
 }
 .desktop-6-child2 {
   position: absolute;
-  top: 437px;
+  top: 235px;
   left: 728px;
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslateblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 522px;
-  height: 116px;
+  height: 50px;
 }
 .desktop-6-child3 {
   position: absolute;
-  top: 567px;
+  top: 290px;
   left: 730px;
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslateblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 522px;
-  height: 116px;
+  height: 50px;
+} */
+.desktop-6-child1, .desktop-6-child2, .desktop-6-child3 {
+  position: absolute;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 522px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
+
+/* Style for the dropdown */
+select, input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  color: white; /* Text color */
+  font-size: 16px;
+  outline: none;
+  padding-left: 10px;
+  appearance: none; /* Remove default styling */
+  cursor: pointer;
+}
+
+/* Add a down arrow to select elements */
+.desktop-6-child1 select, .desktop-6-child2 select {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px;
+}
+
+/* Change dropdown background when opened */
+select:focus, select:hover, input:focus, input:hover {
+  background-color: rgba(72, 61, 139, 0.8); /* Slightly lighter than darkslateblue */
+}
+
+/* Style for the dropdown options */
+select option {
+  background-color: var(--color-darkslateblue); /* Use the original background color */
+  color: white;
+}
+
+/* Positioning */
+.desktop-6-child1 {
+  top: 180px;
+  left: 730px;
+}
+
+.desktop-6-child2 {
+  top: 235px;
+  left: 728px;
+}
+
+.desktop-6-child3 {
+  top: 290px;
+  left: 730px;
+}
+
+
 .desktop-6-child4 {
   position: absolute;
   top: 940px;
@@ -120,9 +212,9 @@
 .incident-details {
   position: absolute;
   height: 1.87%;
-  top: 17.45%;
+  top: 8.45%;
   left: calc(50% - 534px);
-  font-size: var(--font-size-15xl);
+  font-size: var(--font-size-8xl);
   line-height: 27.5px;
   font-weight: 800;
   display: inline-block;
@@ -131,7 +223,7 @@
 .upload-evidence {
   position: absolute;
   height: 1.87%;
-  top: 59.49%;
+  top: 39.49%;
   left: calc(50% - 529px);
   font-size: var(--font-size-15xl);
   line-height: 27.5px;
@@ -168,20 +260,20 @@
   line-height: 27.5px;
   font-weight: 800;
 }
-.type-of-bullying {
+/* .type-of-bullying {
   position: absolute;
   top: 351px;
   left: 747px;
   line-height: 27.5px;
   font-weight: 800;
-}
-.text-message {
+} */
+/* .text-message {
   position: absolute;
-  top: 351px;
+  top: 200px;
   left: 223px;
   line-height: 27.5px;
-  font-weight: 800;
-}
+  font-weight: 100;
+} */
 .documents {
   position: absolute;
   top: 983px;
@@ -203,7 +295,7 @@
   line-height: 27.5px;
   font-weight: 800;
 }
-.platform {
+/* .platform {
   position: absolute;
   top: 481px;
   left: 747px;
@@ -216,7 +308,7 @@
   left: 747px;
   line-height: 27.5px;
   font-weight: 800;
-}
+} */
 .submit-report {
   position: relative;
   line-height: 27.5px;
@@ -298,3 +390,5 @@
   text-align: center;
   font-size: 18px;
 }
+
+

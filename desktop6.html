@@ -21,15 +21,44 @@
   </head>
   <body>
     <div class="desktop-6">
+      <div class="popup-message" id="popupMessage">Report submitted successfully</div>
       <div class="desktop-6-child"></div>
       <div class="desktop-6-item"></div>
       <div class="report-your-incident">Report your incident</div>
       <img class="back-icon" alt="" src="./public/back@2x.png" />
 
-      <div class="desktop-6-inner"></div>
-      <div class="desktop-6-child1"></div>
-      <div class="desktop-6-child2"></div>
-      <div class="desktop-6-child3"></div>
+      <div class="desktop-6-inner">
+        <textarea class="text-message" placeholder="Type your message..."></textarea>
+      </div>
+      <div class="desktop-6-child1">
+        <select class="type-of-bullying">
+          <option value="" disabled selected>Select Type of Bullying</option>
+          <option value="cyberstalking">Cyberstalking</option>
+          <option value="harassment">Harassment</option>
+          <option value="doxxing">Doxxing</option>
+          <option value="impersonation">Impersonation</option>
+          <option value="trolling">Trolling</option>
+          <option value="hate_speech">Hate Speech</option>
+          <option value="outing">Outing (Revealing Private Info)</option>
+      </select>
+      </div>
+      <div class="desktop-6-child2">
+        <select class="platform">
+          <option value="" disabled selected>Select Platform</option>
+          <option value="facebook">Facebook</option>
+          <option value="instagram">Instagram</option>
+          <option value="twitter">Twitter/X</option>
+          <option value="tiktok">TikTok</option>
+          <option value="reddit">Reddit</option>
+          <option value="youtube">YouTube</option>
+          <option value="whatsapp">WhatsApp</option>
+          <option value="snapchat">Snapchat</option>
+          <option value="discord">Discord</option>
+      </select>
+      </div>
+      <div class="desktop-6-child3">
+        <input type="datetime-local" class="submit-report-as">
+      </div>
       <div class="desktop-6-child4"></div>
       <div class="desktop-6-child5"></div>
       <div class="desktop-6-child6"></div>
@@ -51,39 +80,29 @@
       <i class="jpg-png">.Jpg, .Png</i>
       <i class="pdf">.Pdf</i>
       <i class="mp4">Mp4</i>
-      <i class="type-of-bullying">Type of Bullying</i>
-      <i class="text-message">text message...</i>
+      <!-- <i class="type-of-bullying">Type of Bullying</i> -->
+      <!-- <i class="text-message">text message...</i> -->
       <i class="documents">Documents</i>
       <i class="screenshortsimages">Screenshorts/Images</i>
       <i class="videos">Videos</i>
-      <i class="platform">Platform</i>
-      <i class="date-time">Date & Time</i>
+      <!-- <i class="platform">Platform</i> -->
+      <!-- <i class="date-time">Date & Time</i> -->
       
-      <div class="submit-report-wrapper">
-        <div class="submit-report">
-          <i class="submit-report-as">Submit report </i>
-          <b> </b>
-        </div>
-      </div>
-    
-      <div class="submit-report-container">
-        <div class="submit-report2">
-          <i class="submit-report-as">Submit report as anonymously</i>
-          <b> </b>
-        </div>
-      </div>
-    </div>
-
-    <div class="desktop-6">
-      <div class="popup-message" id="popupMessage">Report submitted successfully</div>
-
       <div class="submit-report-wrapper">
         <div class="submit-report" id="submitReport">
           <i class="submit-report-as">Submit report </i>
           <b> </b>
         </div>
       </div>
+    
+      <div class="submit-report-container">
+        <div class="submit-report2" id="submitReportAnonymous">
+          <i class="submit-report-as">Submit report as anonymously</i>
+          <b> </b>
+        </div>
+      </div>
     </div>
+    
 
     <script>
       var frameContainer = document.getElementById("frameContainer");
@@ -101,7 +120,7 @@
       }
 
 
-      document.getElementById("submitReport").addEventListener("click", function () {
+      function showPopupAndRedirect() {
         var popup = document.getElementById("popupMessage");
         popup.style.display = "block";
         
@@ -109,7 +128,11 @@
           popup.style.display = "none";
           window.location.href = "#Tree"; // Redirect to home
         }, 3000);
-      });
+      }
+      
+      document.getElementById("submitReport").addEventListener("click", showPopupAndRedirect);
+      document.getElementById("submitReportAnonymous").addEventListener("click", showPopupAndRedirect);
+
     </script>
   </body>
 </html>
