@@ -8,11 +8,11 @@
 }
 .desktop-6-item {
   position: absolute;
-  top: 1341px;
+  top: 700px;
   left: 190px;
   background-color: var(--color-darkslateblue);
   width: 1060px;
-  height: 92px;
+  height: 12px;
 }
 .report-your-incident {
   position: absolute;
@@ -172,36 +172,36 @@ select option {
 
 .desktop-6-child4 {
   position: absolute;
-  top: 940px;
+  top: 440px;
   left: 191px;
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslateblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 342px;
-  height: 116px;
+  height: 50px;
 }
 .desktop-6-child5 {
   position: absolute;
-  top: 939px;
+  top: 440px;
   left: 549px;
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslateblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 342px;
-  height: 116px;
+  height: 50px;
 }
 .desktop-6-child6 {
   position: absolute;
-  top: 940px;
+  top: 440px;
   left: 911px;
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslateblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 342px;
-  height: 116px;
+  height: 50px;
 }
 .incident-details1 {
   margin: 0;
@@ -223,42 +223,81 @@ select option {
 .upload-evidence {
   position: absolute;
   height: 1.87%;
-  top: 39.49%;
+  top: 24.49%;
   left: calc(50% - 529px);
-  font-size: var(--font-size-15xl);
+  font-size: var(--font-size-8xl);
   line-height: 27.5px;
-  font-weight: 800;
+  font-weight: 700;
   display: inline-block;
   width: 333px;
 }
+.upload-container, .upload-section {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px dashed #007bff;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+.upload-container p, .upload-section i {
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
+}
+.file-input {
+  display: none;
+}
+.preview {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.preview img, .preview video, .preview p {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.upload-section {
+  text-align: center;
+}
+.upload-section input {
+  display: block;
+  margin: 10px auto;
+}
 .report-submission {
   position: absolute;
-  top: 78.79%;
+  top: 35.79%;
   left: calc(50% - 532px);
-  font-size: var(--font-size-15xl);
+  font-size: var(--font-size-8xl);
   line-height: 27.5px;
-  font-weight: 800;
+  font-weight: 700;
 }
 .jpg-png {
   position: absolute;
-  top: 1056px;
-  left: 413px;
+  top: 490px;
+  left: 433px;
   line-height: 27.5px;
-  font-weight: 800;
+  font-weight: 100;
+  font-size: 12px;
 }
 .pdf {
   position: absolute;
-  top: 1056px;
+  top: 490px;
   left: 843px;
   line-height: 27.5px;
-  font-weight: 800;
+  font-weight: 100;
+  font-size: 12px;
 }
 .mp4 {
   position: absolute;
-  top: 1056px;
+  top: 490px;
   left: 1195px;
   line-height: 27.5px;
-  font-weight: 800;
+  font-weight: 100;
+  font-size: 12px;
 }
 /* .type-of-bullying {
   position: absolute;
@@ -276,24 +315,27 @@ select option {
 } */
 .documents {
   position: absolute;
-  top: 983px;
+  top: 410px;
   left: 651px;
   line-height: 27.5px;
   font-weight: 800;
+  font-size: 16px;
 }
 .screenshortsimages {
   position: absolute;
-  top: 983px;
+  top: 410px;
   left: 235px;
   line-height: 27.5px;
   font-weight: 800;
+  font-size: 16px;
 }
 .videos {
   position: absolute;
-  top: 984px;
+  top: 410px;
   left: 1040px;
   line-height: 27.5px;
   font-weight: 800;
+  font-size: 16px;
 }
 /* .platform {
   position: absolute;
@@ -318,7 +360,7 @@ select option {
   position: absolute;
   height: 3.42%;
   width: 15.69%;
-  top: 83.62%;
+  top: 40.62%;
   right: 18.19%;
   bottom: 12.95%;
   left: 66.11%;
@@ -346,7 +388,7 @@ select option {
   position: absolute;
   height: 3.83%;
   width: 25%;
-  top: 83.15%;
+  top: 40.62%;
   right: 55.69%;
   bottom: 13.02%;
   left: 19.31%;

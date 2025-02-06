@@ -59,9 +59,31 @@
       <div class="desktop-6-child3">
         <input type="datetime-local" class="submit-report-as">
       </div>
-      <div class="desktop-6-child4"></div>
-      <div class="desktop-6-child5"></div>
-      <div class="desktop-6-child6"></div>
+      <i class="screenshortsimages">Screenshorts/Images</i>
+      <div class="desktop-6-child4">
+        <div>
+          <input type="file" id="imageInput" accept="image/png, image/jpeg" multiple>
+          <div class="preview" id="imagePreview"></div>
+        </div>
+        
+        
+      </div>
+      <i class="documents">Documents</i>
+      <div class="desktop-6-child5">
+        <div>
+          <input type="file" id="documentInput" accept="application/pdf" multiple>
+          <div class="preview" id="documentPreview"></div>
+        </div>
+      </div>
+
+      
+      <i class="videos">Videos</i>
+      <div class="desktop-6-child6">
+        <div>
+          <input type="file" id="videoInput" accept="video/mp4">
+          <div class="preview" id="videoPreview"></div>
+        </div>
+      </div>
       <div class="incident-details">
         <ol class="incident-details1">
           <li>Incident Details</li>
@@ -72,19 +94,22 @@
           <li>Upload Evidence</li>
         </ol>
       </div>
+      
       <div class="report-submission">
         <ol class="incident-details1">
           <li>Report Submission</li>
         </ol>
       </div>
+    
+    <div class="preview" id="preview"></div>
       <i class="jpg-png">.Jpg, .Png</i>
       <i class="pdf">.Pdf</i>
       <i class="mp4">Mp4</i>
       <!-- <i class="type-of-bullying">Type of Bullying</i> -->
       <!-- <i class="text-message">text message...</i> -->
-      <i class="documents">Documents</i>
-      <i class="screenshortsimages">Screenshorts/Images</i>
-      <i class="videos">Videos</i>
+      <!-- <i class="documents">Documents</i> -->
+      <!-- <i class="screenshortsimages">Screenshorts/Images</i> -->
+      <!-- <i class="videos">Videos</i> -->
       <!-- <i class="platform">Platform</i> -->
       <!-- <i class="date-time">Date & Time</i> -->
       
@@ -132,6 +157,64 @@
       
       document.getElementById("submitReport").addEventListener("click", showPopupAndRedirect);
       document.getElementById("submitReportAnonymous").addEventListener("click", showPopupAndRedirect);
+
+
+// ---upload_evidence---
+
+const imageInput = document.getElementById('imageInput');
+        const videoInput = document.getElementById('videoInput');
+        const documentInput = document.getElementById('documentInput');
+        const imagePreview = document.getElementById('imagePreview');
+        const videoPreview = document.getElementById('videoPreview');
+        const documentPreview = document.getElementById('documentPreview');
+
+        imageInput.addEventListener('change', handleImages);
+        videoInput.addEventListener('change', handleVideo);
+        documentInput.addEventListener('change', handleDocuments);
+
+        function handleImages(event) {
+            const files = event.target.files;
+            imagePreview.innerHTML = "";
+            Array.from(files).forEach(file => {
+                if (file.type.startsWith('image/')) {
+                    const img = document.createElement('img');
+                    img.src = URL.createObjectURL(file);
+                    imagePreview.appendChild(img);
+                } else {
+                    alert("Invalid image format! Only JPG and PNG are allowed.");
+                }
+            });
+        }
+
+        function handleVideo(event) {
+            const file = event.target.files[0];
+            if (file && file.type === 'video/mp4') {
+                const video = document.createElement('video');
+                video.src = URL.createObjectURL(file);
+                video.controls = true;
+                video.width = 200;
+                videoPreview.innerHTML = "";
+                videoPreview.appendChild(video);
+            } else {
+                alert("Invalid video format! Only MP4 is allowed.");
+            }
+        }
+
+        function handleDocuments(event) {
+            const files = event.target.files;
+            documentPreview.innerHTML = "";
+            Array.from(files).forEach(file => {
+                if (file.type === 'application/pdf') {
+                    const p = document.createElement('p');
+                    p.textContent = `PDF File: ${file.name}`;
+                    documentPreview.appendChild(p);
+                } else {
+                    alert("Invalid document format! Only PDF is allowed.");
+                }
+            });
+        }
+
+
 
     </script>
   </body>
