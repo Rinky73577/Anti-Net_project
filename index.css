@@ -14,118 +14,7 @@ a{
   color: aliceblue;
   text-decoration: none;
 }
-/* .fotter-child {
-  position: absolute;
-  top: 133px;
-  left: 0px;
-  background-color: var(--color-darkslateblue);
-  width: 1060px;
-  height: 54px;
-}
-.how-we-safeguard {
-  position: absolute;
-  top: 0px;
-  left: calc(50% - 140px);
-  line-height: 120%;
-  font-weight: 800;
-}
-.your-online-activity {
-  position: absolute;
-  top: 18px;
-  left: calc(50% - 299px);
-  font-size: 32px;
-  line-height: 120%;
-  font-weight: 800;
-}
-.x1 {
-  text-decoration: none;
-  position: absolute;
-  top: 146px;
-  left: 951px;
-  width: 32px;
-  height: 27px;
-  background-image: url("./public/x@3x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.instagram1 {
-  text-decoration: none;
-  position: absolute;
-  top: 146px;
-  left: 908px;
-  width: 32px;
-  height: 27px;
-  background-image: url("./public/instagram@3x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.facebook1 {
-  text-decoration: none;
-  position: absolute;
-  top: 146px;
-  left: 865px;
-  width: 32px;
-  height: 27px;
-  background-image: url("./public/facebook@3x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.anti-net1 {
-  position: absolute;
-  top: 150px;
-  left: 22px;
-  font-size: var(--font-size-5xl);
-  line-height: 120%;
-  font-weight: 800;
-}
-.fotter-icon {
-  position: absolute;
-  top: 146px;
-  left: 1004px;
-  width: 32px;
-  height: 27px;
-  object-fit: cover;
-}
-.fotter {
-  position: absolute;
-  top: 3363px;
-  left: 190px;
-  width: 1060px;
-  height: 187px;
-}
-.rinkysitgmailcom {
-  position: absolute;
-  width: 23.06%;
-  top: 26.84%;
-  left: 3.57%;
-  font-size: var(--font-size-sm);
-  line-height: 120%;
-  font-weight: 800;
-  display: none;
-}
-.div {
-  position: absolute;
-  width: 23.06%;
-  top: 33.4%;
-  left: 3.66%;
-  font-size: var(--font-size-sm);
-  line-height: 120%;
-  font-weight: 800;
-  display: none;
-}
-.contact {
-  position: absolute;
-  width: 9.22%;
-  top: 17.89%;
-  left: 0%;
-  font-size: var(--font-size-5xl);
-  line-height: 120%;
-  font-weight: 800;
-  display: none;
-} */
+
 
 /* -----Fotter------ */
 .fotter {
@@ -239,30 +128,7 @@ a{
   background: rgb(59, 14, 143);
   padding: 20px 0;
 }
-/* .more-about-as1 {
-  position: relative;
-  line-height: 27.5px;
-}
-.submit-button {
-  position: absolute;
-  height: 7.95%;
-  width: 20.26%;
-  top: 92.05%;
-  right: 2.21%;
-  bottom: 0%;
-  left: 77.52%;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-cornflowerblue);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-6xs) var(--padding-5xl);
-  box-sizing: border-box;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-roboto);
-} */
+
 .frame {
   position: absolute;
   top: 15%; /* Adjust to position it below "Report Incidence" */
@@ -373,33 +239,6 @@ a{
   left: 40.74%;
   background-color: var(--color-darkslateblue);
 }
-/* .enter-your-name {
-  position: absolute;
-  width: 12.39%;
-  top: 17.89%;
-  left: 42.27%;
-  line-height: 120%;
-  font-weight: 500;
-  display: inline-block;
-}
-.enter-your-email {
-  position: absolute;
-  width: 12.01%;
-  top: 33.6%;
-  left: 42.27%;
-  line-height: 120%;
-  font-weight: 500;
-  display: inline-block;
-}
-.enter-your-message {
-  position: absolute;
-  width: 14.79%;
-  top: 48.31%;
-  left: 42.27%;
-  line-height: 120%;
-  font-weight: 500;
-  display: inline-block;
-} */
 
 .phone-icon {
   position: absolute;

@@ -38,12 +38,26 @@ a{
   height: 28px;
   cursor: pointer;
 }
+/* .forget-password {
+  position: absolute;
+  top: 338px;
+  left: 208px;
+  line-height: 27.5px;
+} */
 .forget-password {
   position: absolute;
   top: 338px;
   left: 208px;
   line-height: 27.5px;
+  text-decoration: none;
+  color: #fff; /* Change color as needed */
+  cursor: pointer;
 }
+
+.forget-password:hover {
+  text-decoration: underline;
+}
+
 .login-child {
   position: absolute;
   top: 99.5px;

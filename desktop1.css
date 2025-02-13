@@ -95,7 +95,7 @@ a{
 }
 .anti-net4 {
   position: absolute;
-  width: 13.23%;
+  /* width: 13.23%; */
   top: calc(50% - 15.5px);
   left: 0%;
   font-size: var(--font-size-15xl);
