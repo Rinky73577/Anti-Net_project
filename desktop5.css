@@ -60,7 +60,7 @@ input {
 /* Placeholder Text */
 input::placeholder {
     color: #151941; /* Dark blue placeholder text */
-    opacity: 0.33;
+    opacity: 0.7;
 }
 
 /* Focus Effect */
