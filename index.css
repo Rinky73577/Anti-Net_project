@@ -754,9 +754,9 @@ a{
 /* ---home--- */
 .creating-a-safer {
   position: absolute;
-  height: 48.11%;
+  height: 40.11%;
   width: 49.3%;
-  top: 13.64%;
+  top: 16.64%;
   left: 0%;
   line-height: 100%;
   text-transform: capitalize;
@@ -813,11 +813,11 @@ a{
 .social-media-feed-on-smartphon {
   position: absolute;
   height: 100%;
-  width: 53.9%;
+  width: 50%;
   top: 0%;
   right: 0%;
   bottom: 0%;
-  left: 46.1%;
+  left: 50.1%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -963,11 +963,40 @@ a{
 }
 
 
+.top i {
+  color: #000000;
+  background: rgba(99, 88, 189, 0.2);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
 
+.bx {
+  font-family: boxicons !important;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  display: inline-block;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'poppins', sans-serif;
+}
 
-
-
+.top {
+  position: fixed;
+  bottom: 2.1rem;
+  right: 2.1rem;
+}
 
 
 
