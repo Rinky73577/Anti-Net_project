@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
+    <!-- Fonts and CSS -->
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./desktop6.css" />
     <link
@@ -18,6 +19,17 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&display=swap"
     />
+
+    <!-- Firebase SDKs (only once)
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-storage.js"></script> -->
+
+    <!-- Firebase SDKs (Compat Version) -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
+
   </head>
   <body>
     <div class="desktop-6">
@@ -57,7 +69,7 @@
       </select>
       </div>
       <div class="desktop-6-child3">
-        <input type="datetime-local" class="submit-report-as">
+        <input type="datetime-local" class="incident-datetime">
       </div>
       <i class="screenshortsimages">Screenshorts/Images</i>
       <div class="desktop-6-child4">
@@ -127,6 +139,14 @@
         </div>
       </div>
     </div>
+
+    <!-- <button id="submitReport" class="submit-report">
+      Submit Report
+    </button>
+    
+    <button id="submitReportAnonymous" class="submit-report2">
+      Submit Report Anonymously
+    </button> -->
     
 
     <script>
@@ -155,8 +175,8 @@
         }, 3000);
       }
       
-      document.getElementById("submitReport").addEventListener("click", showPopupAndRedirect);
-      document.getElementById("submitReportAnonymous").addEventListener("click", showPopupAndRedirect);
+      // document.getElementById("submitReport").addEventListener("click", showPopupAndRedirect);
+      // document.getElementById("submitReportAnonymous").addEventListener("click", showPopupAndRedirect);
 
 
 // ---upload_evidence---
@@ -217,18 +237,8 @@ const imageInput = document.getElementById('imageInput');
         
 </script>
 
-
-
-
-<!-- Firebase SDKs (only once) -->
-<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-storage.js"></script>
-
 <!-- Your custom main.js script -->
-<script src="main.js"></script>
-
-
+    <script src="main.js" defer></script>
 
   </body>
 </html>
