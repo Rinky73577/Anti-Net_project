@@ -755,8 +755,8 @@ a{
 .creating-a-safer {
   position: absolute;
   height: 40.11%;
-  width: 49.3%;
-  top: 16.64%;
+  width: 40.3%;
+  top: 0%;
   left: 0%;
   line-height: 100%;
   text-transform: capitalize;
@@ -765,7 +765,7 @@ a{
 .empowering-voices-silencing {
   position: absolute;
   width: 40.56%;
-  top: 64.27%;
+  top: 66.27%;
   left: 0.19%;
   font-size: var(--font-size-5xl);
   line-height: 27.5px;
@@ -813,7 +813,7 @@ a{
 .social-media-feed-on-smartphon {
   position: absolute;
   height: 100%;
-  width: 50%;
+  width: 55%;
   top: 0%;
   right: 0%;
   bottom: 0%;
