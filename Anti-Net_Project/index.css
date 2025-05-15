@@ -1,0 +1,1003 @@
+.bg-circles-icon {
+  position: absolute;
+  height: 44.59%;
+  width: 126.67%;
+  top: -13.61%;
+  right: -35.76%;
+  bottom: 69.03%;
+  left: 9.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+/* -----Fotter------ */
+.fotter {
+  position: relative;
+  /* margin-top: 50px; */
+  /* width: 100%; */
+  background-color: var(--color-darkslateblue);
+  height: auto;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  /* overflow-y: hidden; */
+}
+
+.fotter-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 54px;
+  background-color: var(--color-darkslateblue);
+}
+
+.anti-net1 {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 800;
+}
+
+.how-we-safeguard {
+  position: absolute;
+  top: 60px;
+  left: 22px;
+  font-size: 15px;
+  line-height: 120%;
+  font-weight: 600;
+}
+
+.your-online-activity {
+  position: absolute;
+  top: 80px;
+  left: 22px;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 800;
+}
+
+.social-icons {
+  position: absolute;
+  top: 120px;
+  left: 22px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  width: 32px;
+  height: 27px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook1 {
+  background-image: url("./public/facebook@3x.png");
+}
+
+.instagram1 {
+  background-image: url("./public/instagram@3x.png");
+}
+
+.x1 {
+  background-image: url("./public/x@3x.png");
+}
+
+.contact-section {
+  position: absolute;
+  top: 20px;
+  right: 76px;
+  /* text-align: right; */
+}
+
+.contact {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  align-items: center;
+  /* text-align: ; */
+}
+
+.phone-info, .email-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.phone-icon, .email-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 14px;
+  color: white;
+  background: rgb(59, 14, 143);
+  padding: 20px 0;
+}
+
+.frame {
+  position: absolute;
+  top: 15%; /* Adjust to position it below "Report Incidence" */
+  left: 0%; /* Center within the report section */
+  width: 100%; /* Set width relative to the report section */
+  padding: 20px; /* Adds space inside the frame */
+  padding-bottom: 40px; /* Add extra padding at the bottom */
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for better aesthetics */
+  color: white;
+  min-height: 200px; /* Ensure the frame has sufficient height */
+
+}
+
+.more-about-as1 {
+  position: relative;
+  line-height: 27.5px;
+}
+
+.submit-button {
+  position: absolute;
+  height: 7.95%;
+  width: 20.26%;
+  top: 75%; /* Adjust this to move it below the <p> tag */
+  right: 2.21%;
+  bottom: auto; /* Reset bottom to avoid conflict with top */
+  left: 77.52%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+
+
+
+
+
+
+
+/* ----Report---- */
+.report-incedent {
+  position: absolute;
+  top: 0%;
+  /* left: 39.77%; */
+  left:36%;
+  font-size: var(--font-size-15xl);
+  line-height: 120%;
+  font-weight: 800;
+}
+
+.report h1 {
+  position: absolute;
+  top: 15%; /* Adjust this value to control the vertical positioning */
+  left: 25; /* Align to the left */
+  width: 97%; /* Adjust the width to fit the content */
+  text-align: left; /* Align the text to the left */
+  font-size: 22px; /* Keep the desired font size */
+  font-weight: 900; /* Maintain the bold style */
+  margin: 0;
+}
+
+
+.report p {
+  position: absolute;
+  top: 32%; /* Adjust this value to control spacing below the <h1> tag */
+  left: 25px;
+  width: 90%; /* Ensures it spans the container */
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0;
+}
+.message-input-placeholder {
+  position: absolute;
+  height: 10.74%;
+  width: 59.07%;
+  top: 14.51%;
+  right: 0%;
+  bottom: 74.75%;
+  left: 40.93%;
+  background-color: var(--color-darkslateblue);
+}
+.message-input-background {
+  position: absolute;
+  height: 10.74%;
+  width: 59.07%;
+  top: 29.62%;
+  right: 0.09%;
+  bottom: 59.64%;
+  left: 40.83%;
+  background-color: var(--color-darkslateblue);
+}
+.social-media-icon-placeholder {
+  position: absolute;
+  height: 34%;
+  width: 59.07%;
+  top: 44.73%;
+  right: 0.19%;
+  bottom: 21.27%;
+  left: 40.74%;
+  background-color: var(--color-darkslateblue);
+}
+
+.phone-icon {
+  position: absolute;
+  height: 7.95%;
+  width: 2.37%;
+  top: 31.21%;
+  right: 97.54%;
+  bottom: 60.83%;
+  left: 0.09%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.email-icon {
+  position: absolute;
+  height: 7.95%;
+  width: 2.37%;
+  top: 24.85%;
+  right: 97.63%;
+  bottom: 67.2%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.report {
+  position: absolute;
+  top: 2410px;
+  left: 196px;
+  width: 1057px;
+  height: 503px;
+  font-size: var(--font-size-base);
+}
+
+
+
+
+
+
+
+/* ---Feature--- */
+.more-features-button {
+  position: absolute;
+  height: 8.25%;
+  width: 19.81%;
+  top: 85%;
+  right: 2.07%;
+  bottom: 0%;
+  left: 78.12%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-5xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+.features1 {
+  position: absolute;
+  top: 0%;
+  left: 43.1%;
+  font-size: var(--font-size-15xl);
+  line-height: 120%;
+  font-weight: 800;
+}
+.frame-child3 {
+  position: absolute;
+  height: 56.08%;
+  width: 23.94%;
+  top: 18.56%;
+  right: 76.06%;
+  bottom: 25.36%;
+  left: 0%;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+}
+.features-item {
+  position: absolute;
+  height: 56.08%;
+  width: 23.94%;
+  top: 18.56%;
+  right: 50.7%;
+  bottom: 25.36%;
+  left: 25.35%;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+}
+.frame-child5 {
+  position: absolute;
+  height: 56.08%;
+  width: 23.94%;
+  top: 18.56%;
+  right: 25.35%;
+  bottom: 25.36%;
+  left: 50.7%;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+}
+.education-support-icon {
+  position: absolute;
+  height: 56.08%;
+  width: 23.94%;
+  top: 18.56%;
+  right: 0%;
+  bottom: 25.36%;
+  left: 76.06%;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue);
+}
+.receiving-mail-messages-via-em {
+  position: absolute;
+  height: 18.76%;
+  width: 10.7%;
+  top: 20.62%;
+  right: 7.14%;
+  bottom: 60.62%;
+  left: 82.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.magnifying-glass-with-files-fo {
+  position: absolute;
+  height: 18.76%;
+  width: 10.7%;
+  top: 20.21%;
+  right: 56.71%;
+  bottom: 61.03%;
+  left: 32.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.web-design-on-laptop-with-colo {
+  position: absolute;
+  height: 18.76%;
+  width: 10.7%;
+  top: 20.21%;
+  right: 32.39%;
+  bottom: 61.03%;
+  left: 56.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.charts-and-calculations-for-bu {
+  position: absolute;
+  height: 18.76%;
+  width: 10.7%;
+  top: 20.82%;
+  right: 82.25%;
+  bottom: 60.41%;
+  left: 7.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.real-time-abuse-detection {
+  position: absolute;
+  width: 19.62%;
+  top: 40.62%;
+  left: 27.51%;
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.account-recreation-prevention {
+  position: absolute;
+  width: 22.25%;
+  top: 40.62%;
+  left: 51.55%;
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.education-support {
+  position: absolute;
+  width: 23%;
+  top: 43.71%;
+  left: 76.53%;
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.offenders-are-blocked {
+  position: absolute;
+  width: 23.94%;
+  top: 57.11%;
+  left: 0.38%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.our-platform-actively {
+  position: absolute;
+  width: 23.1%;
+  top: 57.11%;
+  left: 25.82%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.advanced-technology-stops {
+  position: absolute;
+  width: 23.47%;
+  top: 56.49%;
+  left: 50.89%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.access-resources-and {
+  position: absolute;
+  width: 22.54%;
+  top: 56.49%;
+  left: 76.81%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.ip-blocking {
+  position: absolute;
+  top: 43.71%;
+  left: 5.73%;
+  line-height: 120%;
+  font-weight: 800;
+}
+.features {
+  position: absolute;
+  top: 1786px;
+  left: 187px;
+  width: 1065px;
+  height: 485px;
+  font-size: var(--font-size-5xl);
+}
+
+
+
+
+
+/* ---About--- */
+.our-vision {
+  position: absolute;
+  top: 20%;
+  left: 50.56%;
+  line-height: 120%;
+  font-weight: 800;
+}
+.your-safety-is {
+  position: absolute;
+  height: 27.63%;
+  width: 49.44%;
+  top: 23.92%;
+  left: 50.56%;
+  font-size: 44px;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: var(--h1-main-heading);
+  display: inline-block;
+}
+.our-mission {
+  position: absolute;
+  top: 55.26%;
+  left: 50.56%;
+  line-height: 120%;
+  font-weight: 800;
+}
+.creating-a-safer1 {
+  position: absolute;
+  width: 49.62%;
+  top: 59.38%;
+  left: 50.28%;
+  font-size: var(--font-size-5xl);
+  line-height: 27.5px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.more-btn {
+  position: absolute;
+  height: 8.25%;
+  width: 19.87%;
+  top: 90.31%;
+  right: 2.26%;
+  bottom: 1.44%;
+  left: 77.87%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-5xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+.more-about-as-container {
+  position: absolute;
+  height: 8.25%;
+  width: 19.87%;
+  top: 90.31%;
+  right: 2.26%;
+  bottom: 1.44%;
+  left: 77.87%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-5xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+.about3 {
+  position: absolute;
+  top: 4.95%;
+  left: 44.92%;
+  font-size: var(--font-size-15xl);
+  line-height: 27.5px;
+  font-weight: 800;
+}
+.social-media-platforms-and-net {
+  position: absolute;
+  height: 100%;
+  width: 45.67%;
+  top: 0%;
+  right: 54.33%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about {
+  position: absolute;
+  top: 1140px;
+  left: 192px;
+  width: 1062px;
+  height: 485px;
+}
+
+
+
+
+
+
+
+/* ----we're working with---- */
+.were-working-with {
+  position: absolute;
+  top: 0%;
+  left: calc(50% - 167.5px);
+  line-height: 27.5px;
+  font-weight: 800;
+}
+.logos-child {
+  position: absolute;
+  top: 86px;
+  left: 0px;
+  background-color: var(--color-slateblue);
+  width: 165px;
+  height: 121px;
+}
+.logos-item {
+  position: absolute;
+  top: 86px;
+  left: 180px;
+  background-color: var(--color-slateblue);
+  width: 165px;
+  height: 121px;
+}
+.logos-inner {
+  position: absolute;
+  top: 86px;
+  left: 360px;
+  background-color: var(--color-slateblue);
+  width: 165px;
+  height: 121px;
+}
+.logos-child1 {
+  position: absolute;
+  top: 86px;
+  left: 540px;
+  background-color: var(--color-slateblue);
+  width: 165px;
+  height: 121px;
+}
+.logos-child2 {
+  position: absolute;
+  top: 86px;
+  left: 720px;
+  background-color: var(--color-slateblue);
+  width: 165px;
+  height: 121px;
+}
+.logos-child3 {
+  position: absolute;
+  top: 86px;
+  left: 900px;
+  background-color: var(--color-slateblue);
+  width: 165px;
+  height: 121px;
+}
+.facebook {
+  text-decoration: none;
+  position: absolute;
+  top: 113px;
+  left: 45px;
+  width: 77px;
+  height: 68px;
+  background-image: url("./public/facebook1@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.instagram {
+  text-decoration: none;
+  position: absolute;
+  top: 113px;
+  left: 224px;
+  width: 77px;
+  height: 68px;
+  background-image: url("./public/instagram1@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.youtube-logo {
+  text-decoration: none;
+  position: absolute;
+  top: 113px;
+  left: 403px;
+  width: 76px;
+  height: 68px;
+  background-image: url("./public/youtube-logo@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.x {
+  text-decoration: none;
+  position: absolute;
+  top: 113px;
+  left: 581px;
+  width: 76px;
+  height: 68px;
+  background-image: url("./public/x1@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.tiktok-icon {
+  position: absolute;
+  top: 113px;
+  left: 759px;
+  width: 77px;
+  height: 68px;
+  object-fit: cover;
+}
+.whatsapp {
+  text-decoration: none;
+  position: absolute;
+  top: 113px;
+  left: 938px;
+  width: 77px;
+  height: 68px;
+  background-image: url("./public/whatsapp@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.logos {
+  position: absolute;
+  height: 5.82%;
+  top: 28%;
+  bottom: 70.72%;
+  left: calc(50% - 532px);
+  width: 1065px;
+  font-size: var(--font-size-15xl);
+}
+
+
+
+
+
+/* ---home--- */
+.creating-a-safer {
+  position: absolute;
+  height: 40.11%;
+  width: 40.3%;
+  top: 0%;
+  left: 0%;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.empowering-voices-silencing {
+  position: absolute;
+  width: 40.56%;
+  top: 66.27%;
+  left: 0.19%;
+  font-size: var(--font-size-5xl);
+  line-height: 27.5px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  display: inline-block;
+}
+.view-btn-b-g {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+}
+.view-connections1 {
+  position: absolute;
+  height: 65%;
+  width: 76.78%;
+  top: 17.5%;
+  left: 11.37%;
+  font-size: var(--font-size-xl);
+  line-height: 27.5px;
+  display: inline-block;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.view-btn-b-g-parent {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.18%;
+  width: 19.81%;
+  top: 78.28%;
+  right: 79.91%;
+  bottom: 14.54%;
+  left: 0.28%;
+}
+.social-media-feed-on-smartphon {
+  position: absolute;
+  height: 100%;
+  width: 55%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 50.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.home2 {
+  position: absolute;
+  top: 130px;
+  left: 188px;
+  width: 1065px;
+  height: 557px;
+  font-size: var(--h1-main-heading-size);
+  font-family: var(--h1-main-heading);
+}
+.home3 {
+  position: absolute;
+  top: 130px;
+  left: 190px;
+  width: 1065px;
+  height: 557px;
+  font-size: var(--h1-main-heading-size);
+  font-family: var(--h1-main-heading);
+}
+.anti-net {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  font-size: var(--font-size-15xl);
+  line-height: 27.5px;
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+}
+.home1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  line-height: 27.5px;
+}
+.home {
+  position: absolute;
+  top: 3px;
+  left: 358px;
+  width: 66px;
+  height: 32px;
+  cursor: pointer;
+}
+.features2 {
+  position: absolute;
+  top: 3px;
+  left: 608px;
+  width: 94px;
+  height: 32px;
+}
+.about1 {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 27.5px;
+  display: inline-block;
+}
+.about2 {
+  position: absolute;
+  top: 3px;
+  left: 483px;
+  width: 66px;
+  height: 32px;
+}
+.report1 {
+  position: absolute;
+  top: 3px;
+  left: 761px;
+  width: 81px;
+  height: 32px;
+}
+.loginregister1 {
+  position: absolute;
+  top: 12.5%;
+  left: 0%;
+  line-height: 27.5px;
+}
+.loginregister {
+  position: absolute;
+  top: 0px;
+  left: 901px;
+  width: 157px;
+  height: 32px;
+  cursor: pointer;
+}
+.navbar {
+  margin: 0;
+  position: absolute;
+  top: 55px;
+  left: 190px;
+  width: 1058px;
+  height: 35px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--h1-main-heading);
+}
+.contact2 {
+  position: absolute;
+  width: 6.77%;
+  top: 98.82%;
+  left: 25.83%;
+  font-size: var(--font-size-5xl);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.div1 {
+  position: absolute;
+  width: 16.92%;
+  top: 98.99%;
+  left: 37.36%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.rinkysitgmailcom1 {
+  position: absolute;
+  width: 16.92%;
+  top: 98.99%;
+  left: 49.86%;
+  font-size: var(--font-size-sm);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 3000px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+
+.top i {
+  color: #000000;
+  background: rgba(99, 88, 189, 0.2);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.bx {
+  font-family: boxicons !important;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  display: inline-block;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'poppins', sans-serif;
+}
+
+.top {
+  position: fixed;
+  bottom: 2.1rem;
+  right: 2.1rem;
+}
+
+
+
+

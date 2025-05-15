@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;0,700;0,800;1,800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&display=swap"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <div class="desktop-3">
+      <div class="login">
+        <b class="login1">Login</b>
+        <b class="email1">Email</b>
+        <b class="password1">Password</b>
+        <div class="create-an-account" id="createAnAccount">
+          <b class="create-an-account1">Create an account</b>
+        </div>
+        
+        <a href="desktop5.html" class="forget-password">Forget password?</a>
+
+        <div class="login-child"></div>
+        <div class="login-item"></div>
+        <button class="group-button">
+          <div class="group-child1"></div>
+          <b class="login2">Login</b>
+        </button>
+        <img class="email-icon2" alt="" src="./public/email1@2x.png" />
+
+        <img class="lock-icon1" alt="" src="./public/lock@2x.png" />
+      </div>
+
+
+    <!-- ---Navbar--- -->
+    <header class="header">
+      <a href="#" class="logo">Anti-Net</a>
+      <i onclick="toggleMenu()" id="menu-icon" class="bx bx-menu"></i>
+      <nav class="navbar">
+          <a href="./index.html#home" style="--i:1;" class="active">Home</a>
+          <a href="./index.html#features" style="--i:2;">Features</a>
+          <a href="./index.html#about" style="--i:3;">About</a>
+          <a href="./index.html#report" style="--i:4;">Report</a>
+          <a href="./desktop4.html" style="--i:4;">Register</a>
+      </nav>
+    </header>
+    
+    <!-- Responsive navbar js  -->
+    <script>
+    function toggleMenu() {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("show");
+    }
+    </script>
+
+    <script>
+      var createAnAccount = document.getElementById("createAnAccount");
+      if (createAnAccount) {
+        createAnAccount.addEventListener("click", function (e) {
+          window.location.href = "./desktop4.html";
+        });
+      }
+
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+
+      var loginRegisterContainer = document.getElementById("loginRegisterContainer");
+      if (loginRegisterContainer) {
+        loginRegisterContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop3.html";
+        });
+      }
+    </script>
+  </body>
+</html>

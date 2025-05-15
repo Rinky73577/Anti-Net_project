@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="desktop5.css">
+</head>
+<body>
+    <div class="reset-container">
+        <h2>Reset Your Password</h2>
+        <form id="resetForm">
+            <label for="new-password">New Password:</label>
+            <input type="password" id="new-password" required>
+
+            <label for="confirm-password">Re-enter Your New Password:</label>
+            <input type="password" id="confirm-password" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="popup" class="popup">Successfully changed your password!</div>
+
+    <script>
+        document.getElementById("resetForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form from submitting normally
+
+    let newPassword = document.getElementById("new-password").value;
+    let confirmPassword = document.getElementById("confirm-password").value;
+    let popup = document.getElementById("popup");
+
+    if (newPassword === confirmPassword) {
+        popup.style.display = "block"; // Show popup
+
+        setTimeout(function() {
+            popup.style.display = "none"; // Hide popup after 2 seconds
+            window.location.href = "index.html"; // Redirect to login page
+        }, 2000);
+    } else {
+        alert("Passwords do not match! Please try again.");
+    }
+    });
+
+    </script>
+</body>
+</html>
+

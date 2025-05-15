@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop4.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500;0,700;0,800;1,800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-4">
+      <div class="register">
+        <b class="register1">Register</b>
+        <b class="user-name">User name</b>
+        <b class="email">Email</b>
+        <b class="password">Password</b>
+        <div class="already-have-an-account" id="alreadyHaveAnAccount">
+          <b class="already-have-an">Already have an account?</b>
+        </div>
+        <div class="register-child"></div>
+        <div class="register-item"></div>
+        <div class="register-inner"></div>
+        <img class="email-icon1" alt="" src="./public/email1@2x.png" />
+
+        <img class="lock-icon" alt="" src="./public/lock@2x.png" />
+
+        <img class="user-icon" alt="" src="./public/user@2x.png" />
+
+        <button class="rectangle-container">
+          <div class="group-inner"></div>
+          <b class="register2">Register</b>
+        </button>
+      </div>
+
+    <!-- ---Navbar--- -->
+    <header class="header">
+      <a href="#" class="logo">Anti-Net</a>
+      <i onclick="toggleMenu()" id="menu-icon" class="bx bx-menu"></i>
+      <nav class="navbar">
+          <a href="./index.html#home" style="--i:1;" class="active">Home</a>
+          <a href="./index.html#about" style="--i:3;">About</a>
+          <a href="./index.html#features" style="--i:2;">Features</a>
+          <a href="./index.html#report" style="--i:4;">Report</a>
+          <a href="./desktop3.html" style="--i:4;">Login</a>
+      </nav>
+
+    <script>
+    /* Responsive navbar js */
+    function toggleMenu() {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("show");
+    }
+    </script>
+    
+
+    <script>
+      var alreadyHaveAnAccount = document.getElementById("alreadyHaveAnAccount");
+      if (alreadyHaveAnAccount) {
+        alreadyHaveAnAccount.addEventListener("click", function (e) {
+          window.location.href = "./desktop3.html";
+        });
+      }
+
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+
+      var loginRegisterContainer = document.getElementById("loginRegisterContainer");
+      if (loginRegisterContainer) {
+        loginRegisterContainer.addEventListener("click", function (e) {
+          window.location.href = "./desktop3.html";
+        });
+      }
+    </script>
+  </body>
+</html>

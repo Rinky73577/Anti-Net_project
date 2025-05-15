@@ -1,0 +1,160 @@
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.desktop-2-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 771px;
+  object-fit: cover;
+  display: none;
+}
+.about-us {
+  position: absolute;
+  top: 0%;
+  left: calc(50% - 361px);
+  line-height: 27.5px;
+  font-weight: 800;
+  white-space: pre-wrap;
+}
+.welcome-to {
+  font-weight: 500;
+  font-family: var(--font-roboto);
+}
+.anti-net5 {
+  font-family: var(--font-roboto);
+}
+.a-platform-dedicated {
+  font-weight: 500;
+}
+.welcome-to-anti-net-a-platfor {
+  margin: 0;
+}
+.blank-line {
+  margin: 0;
+  font-weight: 500;
+}
+.welcome-to-anti-net-container {
+  position: absolute;
+  width: 100%;
+  top: 10.81%;
+  left: 0%;
+  font-size: var(--font-size-5xl);
+  line-height: 27.5px;
+  display: inline-block;
+  font-family: var(--font-roboto);
+}
+.about-section {
+  position: absolute;
+  height: 71.98%;
+  top: 22.44%;
+  bottom: 5.58%;
+  left: calc(50% - 189px);
+  width: 722px;
+}
+.anti-net7 {
+  position: absolute;
+  /* width: 13.23%; */
+  top: calc(50% - 15.5px);
+  left: 0%;
+  font-size: var(--font-size-15xl);
+  line-height: 27.5px;
+  display: inline-block;
+  height: 30px;
+}
+.home11 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  line-height: 27.5px;
+}
+.home10 {
+  position: absolute;
+  width: 6.24%;
+  top: calc(50% - 14.5px);
+  right: 59.92%;
+  left: 33.84%;
+  height: 32px;
+  cursor: pointer;
+}
+.features10 {
+  position: absolute;
+  top: calc(50% - 14.5px);
+  left: 560px;
+  width: 94px;
+  height: 32px;
+}
+.about11 {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 27.5px;
+  display: inline-block;
+}
+.about10 {
+  position: absolute;
+  width: 6.24%;
+  top: calc(50% - 14.5px);
+  right: 48.11%;
+  left: 45.65%;
+  height: 32px;
+}
+.report5 {
+  position: absolute;
+  width: 7.66%;
+  top: calc(50% - 14.5px);
+  right: 20.42%;
+  left: 71.93%;
+  height: 32px;
+}
+.loginregister9 {
+  position: absolute;
+  top: 12.5%;
+  left: 0%;
+  line-height: 27.5px;
+}
+.loginregister8 {
+  position: absolute;
+  width: 14.84%;
+  top: calc(50% - 17.5px);
+  right: 0%;
+  left: 85.16%;
+  height: 32px;
+  cursor: pointer;
+}
+.navbar4 {
+  margin: 0;
+  position: absolute;
+  width: 73.47%;
+  top: calc(50% - 321.5px);
+  right: 13.13%;
+  left: 13.4%;
+  height: 35px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--h1-main-heading);
+}
+.businesswoman-talking-about-we {
+  position: absolute;
+  top: calc(50% - 152.5px);
+  right: 860px;
+  border-radius: 8px;
+  width: 363px;
+  height: 489px;
+  object-fit: cover;
+}
+.desktop-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 771px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
