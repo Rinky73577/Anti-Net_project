@@ -124,22 +124,21 @@
 <!-- ----About---- -->
       <div class="about" id="about">
         <div class="our-vision">OUR VISION</div>
+        
         <div class="your-safety-is">
           Your safety is our priority; your voice deserves protection.
         </div>
+
         <div class="our-mission">OUR MISSION</div>
         <div class="creating-a-safer1">
           Creating a safer internet for everyone — because respect and security
           should never be compromised.
         </div>
+
         <div class="more-btn" id="frameContainer">
-          <!-- <b class="more-about-as1">More About Us</b> -->
           <a class="more-about-as1" href="./desktop2.html">More About Us</a>
         </div>
-        <!-- <a class="more-about-as1" href="./desktop2.html">More About Us</a> -->
-        <!-- <div class="more-about-as-container" id="frameContainer1">
-          <b class="more-about-as1">More About As</b>
-        </div> -->
+
         <div class="about3">About</div>
         <img
           class="social-media-platforms-and-net"
@@ -189,35 +188,30 @@
           src="./public/social-media-feed-on-smartphone-and-network-of-users@2x.png"
         />
       </div>
-
-<!-- ----NavBar---- -->
+     
+      <!-- ---Navbar--- -->
+    <header class="header">
+      <a href="#" class="logo">Anti-Net</a>
+      <i onclick="toggleMenu()" id="menu-icon" class="bx bx-menu"></i>
       <nav class="navbar">
-        <b class="anti-net">Anti-Net</b>
-
-        
-        <div class="nav-links" id="navLinks"></div>
-        <div class="home" id="homeContainer">
-          <a href="#Tree" class="active">Home</a>
-        </div>
-        <div class="features2">          
-          <a href="#features" class="active">Features</a>
-
-        </div>
-        <div class="about2">          
-          <a href="#about" class="active">About</a>
-
-        </div>
-        <div class="report1">          
-          <a href="#report" class="active">Report</a>
-
-        </div>
-        <div class="loginregister" id="loginRegisterContainer">
-          <div class="loginregister1">Login/Register</div>
-        </div>
+          <a href="./index.html#home" style="--i:1;" class="active">Home</a>
+          <a href="./index.html#features" style="--i:2;">Features</a>
+          <a href="./index.html#about" style="--i:3;">About</a>
+          <a href="./index.html#report" style="--i:4;">Report</a>
+          <a href="./desktop4.html" style="--i:4;">Register</a>
       </nav>
+    </header>
 
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
 
-      <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+<!-- Responsive navbar js  -->
+    <script>
+    function toggleMenu() {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("show");
+    }
+    </script>
+
     <script>
       var frameContainer = document.getElementById("frameContainer");
       if (frameContainer) {
@@ -274,9 +268,6 @@
         });
       }
     </script>
-
-
-    <!-- toggle button -->
      
     <!-- -----Fotter_Script----- -->
     <footer>
@@ -285,11 +276,9 @@
           const footer = document.querySelector(".fotter");
           document.body.appendChild(footer);
         });
-
-
-
       </script>
     </footer>
+    
   </body>
 </html>
 
